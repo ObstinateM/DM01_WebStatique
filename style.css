@@ -1,0 +1,64 @@
+body{
+	color: windowframe;
+	margin:auto;
+	width:600px;
+font-family: 'Reenie Beanie',serif; 
+}
+
+h1{
+margin:50px 0px 0px 50px;
+}
+
+
+#Tab {
+	position : relative;
+	padding: 10px 0 10px 5px;
+	background: #181A12;
+
+border: solid #99CC66 1px; 
+
+}
+
+body>#Tab {width:600px;}
+
+
+div#Tab a {
+width :50px;
+margin : 10px;
+text-align: center; 
+   padding: 5px 10px; margin: 0 0 1px; 
+   text-decoration: none; color: white;}
+
+div#Tab a:hover {
+	color: #411; 
+	background-color: windowframe;
+}
+
+div#Tab a span  {
+display: block;
+position : absolute;
+top : 200px;
+margin : auto;
+
+width:600px;
+height : 500px;
+z-index : 10;
+background-color:white;
+
+}
+
+div#Tab a:hover span {
+
+z-index : 1;
+
+}
+
+.small {
+border: 1px solid white;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 0 5px 5px;
+    width: 50px;
+}
+
+
