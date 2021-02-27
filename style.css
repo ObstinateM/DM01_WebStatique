@@ -9,7 +9,6 @@ h1 {
     margin: 50px 0px 0px 50px;
 }
 
-
 #Tab {
     position: relative;
     padding: 10px 0 10px 5px;
@@ -37,18 +36,17 @@ div#Tab a:hover {
 }
 
 div#Tab a span {
-    display: block;
+    display: none;
     position: absolute;
     top: 200px;
     margin: auto;
     width: 600px;
     height: 500px;
-    z-index: 10;
     background-color: white;
 }
 
-div#Tab a:hover span {
-    z-index: 1;
+div#Tab a:hover span{
+    display: block;
 }
 
 .small {
